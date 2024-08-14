@@ -46,9 +46,15 @@ class PathPainter extends CustomPainter {
 
     Path path1 = Path();
     path1.moveTo(200, 200);
-    path1.lineTo(320, 100);
+    path1.lineTo(300, 100);
     paint.color = Colors.blue;
     canvas.drawPath(path1, paint);
+
+    Path path2 = Path();
+    path2.moveTo(100, 100);
+    path2.lineTo(300, 100);
+    paint.color = Colors.orange;
+    canvas.drawPath(path2, paint);
   }
 
   @override
