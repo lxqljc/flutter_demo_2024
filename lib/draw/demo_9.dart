@@ -83,6 +83,14 @@ class PaperPainter extends CustomPainter {
     Rect rectFromLTRB2 = const Rect.fromLTRB(110, -110, 80, -80);
     canvas.drawRect(rectFromLTRB2, paint..color = Colors.red);
 
+    //【4】.矩形左上右下构造
+    Rect rectFromLTRB4 = const Rect.fromLTRB(110, 110, 80, 80);
+    canvas.drawRect(rectFromLTRB4, paint..color = Colors.red);
+
+    //【5】.矩形左上右下构造
+    Rect rectFromLTRB5 = const Rect.fromLTRB(-110, 110, -80, 80);
+    canvas.drawRect(rectFromLTRB5, paint..color = Colors.red);
+
     canvas.restore();
 
     // 画箭头
